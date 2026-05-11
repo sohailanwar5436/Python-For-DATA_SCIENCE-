@@ -17,8 +17,19 @@
 
 # intro(chapter=3,book= "english")
 
-# defulate  argument
-def intro(name="sohail", work="learning"):
-    print(f"Your name is {name} and your work is {work}")
+# # defulate  argument
+# def intro(name="sohail", work="learning"):
+#     print(f"Your name is {name} and your work is {work}")
 
-intro(name="Ali", work="Data Science")
+# intro(name="Ali", work="Data Science")
+
+
+# #ai question solving
+
+# def bank_account(name = unkown ,balance = 0,transaction = none):
+#     if transaction == deposit :
+#         balance += 1000
+#     elif transaction == withdraw :
+#         balance -= 500
+#     elif transaction == none:
+#         print(f"your blance is {balance}")
