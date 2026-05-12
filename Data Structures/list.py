@@ -91,7 +91,6 @@
 #     if i > 0 :
 #         print(f"positive number are : {i}")
 
-
 # # task 2 from python book find the mean of list
 # num = [1,2,3,4,5,4,6,4,2,5,3,4]
 # sum = 0
@@ -101,9 +100,6 @@
 # mean = sum / len(num)
 # print("Mean of list elements is", mean)
 
-
-
-
 # # task 3 from python book find the largest 
 # num = [23,43,52,54,87,76,75,3,23,46,63]
 
@@ -111,7 +107,7 @@
 # for i in num :
 #     if i > store :
 #         store = i
-        # ind = num.index(i)   
+#         ind = num.index(i)   
 
 # print(f"largest number of list is {store} and index {ind}")
 
@@ -181,26 +177,47 @@
 #     print("yes this list is sorted")
 
 
-# solveing the question from AI 
+# # solveing the question from AI  
+# number = [3, -1, 7, -5, 2, -9, 0, 4]
 
-number = [3, -1, 7, -5, 2, -9, 0, 4]  
+# for i in number :
+#     if i <= 0:
+#         print(f"nagitive number are : {i}")
 
-for i in number :
-        if i <= 0 :
-            print(f"nagitive number  is : {i} ")
-
-for i in number :
-        if i > 0:
-            print(f"nagitive number  is : {i} ")
+# for i in number :
+#     if i > 0 :
+#         print(f"positive number are : {i}")
 
 
-# task 1 from python book seprate positive and nagitive number from list 
-number = [3, -1, 7, -5, 2, -9, 0, 4]
 
-for i in number :
-    if i <= 0:
-        print(f"nagitive number are : {i}")
+# # last task from Ai 
+# value  = [10, -5, 20, -15, 30, -25, 40, -35, 50, -45, 10, -5, 20, -15, 30, -25]
+# newvalue = []
+# for i in value :
+#     if i not in newvalue:
+#      newvalue.append(i)
+# print(f'Now the list is clear {newvalue}')
 
-for i in number :
-    if i > 0 :
-        print(f"positive number are : {i}")
+# #part 2 of this question
+# list2 = newvalue
+# even = []
+# odd = []
+# for i in list2:
+#     if i % 2 == 0 :
+#         even.append(i)
+#     else:
+#         odd.append(i)
+# print(f'Even number of list is : {even}')
+# print(f'Odd number of list is  : {odd}')
+
+# # part 2 of same question  sum of even and product of odd 
+# Neweven = even
+# Newodd = odd
+# Sum_of_even = 0
+# product_of_odd = 1
+# for i in Neweven:
+#     Sum_of_even = Sum_of_even + i
+# for i  in Newodd:
+#     product_of_odd = product_of_odd * i
+# print(f"the sum of even number is {Sum_of_even}")
+# print(f"the product of odd number is {product_of_odd}")
