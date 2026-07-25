@@ -1,20 +1,20 @@
-# # i have comment this 
+# # # i have comment this 
 
 
-# """and i also comment this one"""
+# # """and i also comment this one"""
 
 
-# #hoew to add variable i n pyhton
-# a = "sohail"
-# print(a)
+# # #hoew to add variable i n pyhton
+# # a = "sohail"
+# # print(a)
 
 
-# #style of naming variable 
-# SohailNum =12 #pascal style
-# sohailNun = 31 #Camel case
-# sohail_num = 43 #snake case
+# # #style of naming variable 
+# # SohailNum =12 #pascal style
+# # sohailNun = 31 #Camel case
+# # sohail_num = 43 #snake case
  
-# print(SohailNum ,sohailNun , sohail_num)
+# # print(SohailNum ,sohailNun , sohail_num)
 
 # #how to check the type of variable 
 # a = 32
@@ -56,47 +56,46 @@
 # name = "sohail"
 # age = 32
 
-# #print("my name is",name , "my age is",age)
 # print(f"my name is {name} and my age is {age}")
 
 
 
 
-# #Arithmetic operators
+# # #Arithmetic operators
 
-# a = 4 
-# b = 3
+# # a = 4 
+# # b = 3
 
-# print(a + b)
-# print(a * b)
-# print(a / b)
-# print(a // b)
-# print(a ** b)
-# print(a % b)
+# # print(a + b)
+# # print(a * b)
+# # print(a / b)
+# # print(a // b)
+# # print(a ** b)
+# # print(a % b)
 
-# # test for Arithmetic operators
-# a = int(input("give a nume A: "))
-# b = int(input("give a nume B: "))
-# print(a + b)
-# print(a * b)
-# print(a / b)
-# print(a // b)
-# print(a ** b)
-# print(a % b)
+# # # test for Arithmetic operators
+# # a = int(input("give a nume A: "))
+# # b = int(input("give a nume B: "))
+# # print(a + b)
+# # print(a * b)
+# # print(a / b)
+# # print(a // b)
+# # print(a ** b)
+# # print(a % b)
 
 
-# #Compound assignment operator
-# a = 50
-# a += 50
-# a /= 2
-# a *= 3
-# a //=2
-# print(a)
+# # #Compound assignment operator
+# # a = 50
+# # a += 50
+# # a /= 2
+# # a *= 3
+# # a //=2
+# # print(a)
 
-# a = "ali , ahmad , shah "
+# # a = "ali , ahmad , shah "
 
-# a += ", sohail"
-# print(a)
+# # a += ", sohail"
+# # print(a)
 
 
 # #Comparison operator
@@ -111,6 +110,6 @@
 
 # print( not a == b)
 
-# num = int(input("give a number :  "))
-# for i in range(num,num, ):
-#     print("hello")
+num = int(input("give a number :  "))
+for i in range(num,num, ):
+    print("hello")

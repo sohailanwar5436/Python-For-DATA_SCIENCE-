@@ -53,7 +53,7 @@
 # else:
 #     print(f"sir {name} you are  a valid voter")
 
-#last question of python from python book of if-elif-else
+# last question of python from python book of if-elif-else
 
 # temp = int(input("what is the temperature today:- "))
 # if temp < 0 :

@@ -26,13 +26,28 @@
 
 # print(sum)
 
-# find the frequncy of elementin list use dictionary
-data = [1,1,1,2,2,2,2,3,3,3,3,3]
-dis = {}
-for i in data:
-    if i == dis.key():
-        dis[i] += 1
-    else:
-        dis[i] = 1
+# # find the frequncy of elementin list use dictionary
+# data = [1,1,1,2,2,2,2,3,3,3,3,3]
+# dis = {}
+# for i in data:
+#     if i in dis.keys():
+#         dis[i] += 1
+#     else:
+#         dis[i] = 1
 
-print(dis)
+# print(dis)
+
+
+
+# #combine 2 dictionary but same add them 
+
+# dis1 = {1:20, 2:40 ,3:60}
+# dis2 = {4:80, 5:100, 6:120}
+
+# for i in dis2:
+#     if i in dis1:
+#         dis1[i] += dis2[i]
+#     else:
+#         dis1[i] = dis2[i]
+
+# print(f"dictionary 1 is equal : {dis1}")

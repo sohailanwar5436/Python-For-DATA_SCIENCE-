@@ -7,9 +7,9 @@
 # name = hash("sohail")
 # print(name)
 
-# their is not any method to appply lopp on set
+# # their is not any method to appply lopp on set
 
-# but their are some method that use in set 
+# # but their are some method that use in set 
 
 # # for adding in set
 # num = {1,2,3,4}
@@ -30,10 +30,10 @@
 # print(num)
 
 
-# perfroming task on 2 set
-a = {1,2,3,4}
-b = {3,4,5,6}
-print(a.union(b))
-print(a.intersection(b))
-print(a.difference(b))
-print(a.symmetric_difference(b))
+# # perfroming task on 2 set
+# a = {1,2,3,4}
+# b = {3,4,5,6}
+# print(a.union(b))
+# print(a.intersection(b))
+# print(a.difference(b))
+# print(a.symmetric_difference(b))
