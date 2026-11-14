@@ -133,100 +133,101 @@
 #     print(num)
 
 
-from pathlib import Path
-import os
+# from pathlib import Path
+# import os
 
 
-def showfile():
-    path = Path('.') 
-    items = [f for f in path.iterdir() if f.is_file()]
-    for i , item in enumerate(items ,start=1):
-        print(f"{i+1}  :   {item.name}")
+# def showfile():
+#     path = Path('.') 
+#     items = [f for f in path.iterdir() if f.is_file()]
+#     for i , item in enumerate(items ,start=1):
+#         print(f"{i+1}  :   {item.name}")
 
-def creaetfile():
-    try :
-        showfile()
-        name = input("ENTER THE NAME OF FILE YOU WANT TO CREATE :- ")
-        p = Path(name)
-        if not p.exists():
-            with open(p,"w") as fs:
-                data = input("WRITE SOMETHNG IN FIEL YOU HAVE CREATED ")
-                fs.write(data)
-            print("FILE CREATD SUCCESFULL")
-        else:
-            print(f"{name} THSI FILE NAME IS ALREADY EXSIT TRY AGIAN")
-    except Exception as err:
-        print(f"THERE IS AN EORROR WITH NAME OF {err}")
-
-
-def updatefile():
-    try:
-        showfile()
-        name = input("TELL ME THE NAME OF FLIE YOU WANT TO UPDATE ")
-        p = Path(name)
-        if p.exists():
-            with open(p,"a") as fs:
-                data = input("WRITE SOMETHNG IN FIEL YOU HAVE CREATED ")
-                fs.write(data)
-            print("FILE IS UPDATED SUCCESSFULY")
-        else:
-            print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
-
-    except Exception as err:
-        print(f"THERE IS AN EORROR WITH NAME OF {err}")
+# def creaetfile():
+#     try :
+#         showfile()
+#         name = input("ENTER THE NAME OF FILE YOU WANT TO CREATE :- ")
+#         p = Path(name)
+#         if not p.exists():
+#             with open(p,"w") as fs:
+#                 data = input("WRITE SOMETHNG IN FIEL YOU HAVE CREATED ")
+#                 fs.write(data)
+#             print("FILE CREATD SUCCESFULL")
+#         else:
+#             print(f"{name} THSI FILE NAME IS ALREADY EXSIT TRY AGIAN")
+#     except Exception as err:
+#         print(f"THERE IS AN EORROR WITH NAME OF {err}")
 
 
-def readfile():
-    try:
-        showfile()
-        name = input("TELL ME THE NAME OF FLIE YOU WANT TO READ ")
-        p = Path(name)
-        if p.exists():
-            with open(p,"r") as fs:
-                data = fs.read()
-                print(data)
-            print("FILE IS READED SUCCESSFULY")
-        else:
-            print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
+# def updatefile():
+#     try:
+#         showfile()
+#         name = input("TELL ME THE NAME OF FLIE YOU WANT TO UPDATE ")
+#         p = Path(name)
+#         if p.exists():
+#             with open(p,"a") as fs:
+#                 data = input("WRITE SOMETHNG IN FIEL YOU HAVE CREATED ")
+#                 fs.write(data)
+#             print("FILE IS UPDATED SUCCESSFULY")
+#         else:
+#             print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
 
-    except Exception as err:
-        print(f"THERE IS AN EORROR WITH NAME OF {err}")
-
-
-def deletefile():
-    try:
-        showfile()
-        name = input("TELL ME THE NAME OF FLIE YOU WANT TO DELETE  ")
-        p = Path(name)
-        if p.exists():
-            os.remove(p) 
-            print("FILE IS DELETED SUCCESSFULY")
-        else:
-            print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
-
-    except Exception as err:
-        print(f"THERE IS AN EORROR WITH NAME OF {err}")
+#     except Exception as err:
+#         print(f"THERE IS AN EORROR WITH NAME OF {err}")
 
 
+# def readfile():
+#     try:
+#         showfile()
+#         name = input("TELL ME THE NAME OF FLIE YOU WANT TO READ ")
+#         p = Path(name)
+#         if p.exists():
+#             with open(p,"r") as fs:
+#                 data = fs.read()
+#                 print(data)
+#             print("FILE IS READED SUCCESSFULY")
+#         else:
+#             print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
 
-print("PRESS 1 TO CREATE A FILE ")
-print("PRESS 2 TO UPDATE A FILE ")
-print("PRESS 3 TO READ A FILE ")
-print("PRESS 4 TO DELETE A FILE ")
-
-check = int(input("TELL ME YOUR RESPONSE :- "))
-
-if check == 1:
-    creaetfile()
-
-if check == 2:
-    updatefile()
+#     except Exception as err:
+#         print(f"THERE IS AN EORROR WITH NAME OF {err}")
 
 
-if check == 3:
-    readfile()
+# def deletefile():
+#     try:
+#         showfile()
+#         name = input("TELL ME THE NAME OF FLIE YOU WANT TO DELETE  ")
+#         p = Path(name)
+#         if p.exists():
+#             os.remove(p) 
+#             print("FILE IS DELETED SUCCESSFULY")
+#         else:
+#             print(f"{name} THSI FILE NAME IS not EXSIT TRY AGIAN")
+
+#     except Exception as err:
+#         print(f"THERE IS AN EORROR WITH NAME OF {err}")
+
+
+
+# print("PRESS 1 TO CREATE A FILE ")
+# print("PRESS 2 TO UPDATE A FILE ")
+# print("PRESS 3 TO READ A FILE ")
+# print("PRESS 4 TO DELETE A FILE ")
+
+# check = int(input("TELL ME YOUR RESPONSE :- "))
+
+# if check == 1:
+#     creaetfile()
+
+# if check == 2:
+#     updatefile()
+
+
+# if check == 3:
+#     readfile()
     
 
-if check == 4:
-    deletefile()
+# if check == 4:
+#     deletefile()
     
+
