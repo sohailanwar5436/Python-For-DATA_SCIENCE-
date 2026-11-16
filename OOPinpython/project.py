@@ -22,7 +22,7 @@ class Bank:
             print(f"NO FILE EXIST WITH THIS NAME ")
     except Exception as err:
         print(f"THERE IS AN ERROR WITH NAME OF {err}")
-
+        
     @staticmethod
     def account_No_generator():
         alphabat = random.choices(string.ascii_letters, k=3)
